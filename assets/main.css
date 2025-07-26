@@ -31,4 +31,22 @@ body {
 }
 .container-social {
     margin-top: 42px;
+
+}.text-imagen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1440px;
+    width: 90%;
+    margin: 0 auto;
 }
+
+.imagen {
+  width: 493px;
+  height: 493px;
+  margin: 20px auto; /* centrado */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
