@@ -2,51 +2,32 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 body {
     background-color: #FBF8CC;
 }
-.container-encabezado {
+.encabezado {
     display: flex;
-    align-items: center;
     justify-content: space-around;
-    margin: 0 auto;
-    max-width: 1440px;
-    width: 90%;
-}
-.container-name {
+    align-items: center;
     margin-top: 34px;
+}
+.name {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
     font-size: 24px;
     color: #03045E;
 }
-.container-links {
-    margin-top: 37px;
-}
-.container-links a {
-    text-decoration: none;
+.menu a {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 18px;
     color: #03045E;
+    text-decoration: none;
+    font-size: 18px;
 }
-.container-social {
-    margin-top: 42px;
-
-}.text-imagen {
+.menu {
+    gap: 61px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 1440px;
-    width: 90%;
-    margin: 0 auto;
 }
-
-.imagen {
-  width: 493px;
-  height: 493px;
-  margin: 20px auto; /* centrado */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.logos-social-media {
+    display: flex;
+    gap: 29px;
 }
-
