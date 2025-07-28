@@ -31,3 +31,51 @@ body {
     display: flex;
     gap: 29px;
 }
+.text-image {
+    margin-top: 127px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 535px;
+}
+.text p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #03045E
+}
+.text h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 100px;
+    color: #03045E
+}
+
+.btn-1 a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px; /* puedes ajustar si quieres más grande */
+  color: #2B2B00;
+  background-color: #F6E86F;
+  border: 2px solid #474306;
+  border-radius: 6px;
+  text-decoration: none;
+  width: 164px;
+  height: 68px;
+  display: flex;              /* usamos flexbox */
+  align-items: center;        /* centrado vertical */
+  justify-content: center;    /* centrado horizontal */
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease;
+  margin-top: 37px;
+  box-sizing: border-box;     /* para que respete el tamaño con el padding y border */
+}
+
+.btn-1 a:hover {
+  background-color: #e8db59;
+}
